@@ -1,11 +1,14 @@
-import styles from './Footer.module.css'
+// components/Footer.js
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <>
-      <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
-      </footer>
-    </>
-  )
+    <footer className="bg-white border-t border-gray-300">
+      <div className="bg-gray-100 py-4">
+        <p className="text-center text-gray-500 text-sm">
+          &copy; 2024 UG2. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
 }

@@ -1,0 +1,8 @@
+security analysis metrics
+- heatmap
+- bar graph
+(0 to 1 red to green)
+
+visualisation
+- 2 panes
+- requirements + 
